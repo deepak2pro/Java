@@ -21,7 +21,7 @@ class Swapeven
 public static void main(String[] args)
 {
 Swapeven sw= new Swapeven();
-System.out.println("given string 'success' ");
+System.out.println("Given string 'success' ");
 System.out.println(sw.swapPairs("success"));
  
 }
