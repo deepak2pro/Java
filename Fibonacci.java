@@ -10,9 +10,9 @@ System.out.println("Enter the range values");
 c=in.nextInt();
 for(int i=0;i<c;i++){
 z=x+y;
-System.out.println(z);
 x=y;
 y=z;
+System.out.println(z);
 }
 }
 }
