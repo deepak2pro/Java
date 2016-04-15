@@ -1,20 +1,19 @@
 import java.io.*;
 import java.util.*;
-import java.lang.*;
-
-class Factotial
+class Factorial
 {
 public static void main(String[] args)
 {
-int n,c,fact=1;
+int f,s=1;
 Scanner in=new Scanner(System.in);
 System.out.println("Enter the values");
-n=in.nextInt();
-for(c=1;c<=n;c++)
+f=in.nextInt();
+for(int i=1;i<=f;i++)
 {
-fact=fact*c;
+s=s*i;
+
 }
-System.out.println("factorial of "+n+" is:"+fact);
+System.out.println(s);
 }
 }
 
