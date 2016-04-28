@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+/*371=3**3+7**3+1**3 */
 class Armstrong_num
 {
 public static void main(String[] args)
